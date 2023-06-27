@@ -1,5 +1,12 @@
 # Majo's first Discord bot
 
 This is my first ever Discord bot.
-For now, I don't know what this small bot will do, I don't even know its name
-But I hope I'll be proud of whatever I make
+It's still a work in progress, and I'll mostly use it to test and learn stuff.
+
+**Setup**
+*(The bot should run with Docker in the near future)*
+
+**Create and deploy new slash command :**
+    - Add commmand file in `/commands` as `<command-name>.mjs`;
+    - `node deploy_commands.js` ;
+    - Slash commands should be ready!
